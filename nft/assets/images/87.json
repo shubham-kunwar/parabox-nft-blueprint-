@@ -1,0 +1,55 @@
+{
+  "name": "Metakul Collection",
+  "image": "87.png",
+  "edition": 87,
+  "attributes": [
+    {
+      "trait_type": "Origin",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Psychic"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Pants",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Green_Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyebrows",
+      "value": "None"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "None"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shoes",
+      "value": "Blue_Sport"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Blue_Durag"
+    },
+    {
+      "trait_type": "Composition",
+      "value": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+A new account has been created!
+Account component address: account_sim1c8lgstvg0dz5kz28pl5eypw3g0rwe5hfzz8mdwun79aw79h8h4eara
+Public key: 031b216c6a97ec2e5af8558fe7fe8d97dd45a557877ccdc9be75f92b47aa9c846f
+Private key: 6d0dea81087709296850766bd94715b37df527f3a68922e07af9c57d873fe9b6
+Owner badge: resource_sim1ntzvh2cd59pnwfqkkre0rflfhshrhptkweyf7vzefw08u0l38my5ut:#1#
+
+
+resim new-account
+
+resim set-default-account account_sim1c8lgstvg0dz5kz28pl5eypw3g0rwe5hfzz8mdwun79aw79h8h4eara 6d0dea81087709296850766bd94715b37df527f3a68922e07af9c57d873fe9b6 resource_sim1ngyavav59dl55jur4eyxqz9wqyjycp2aua9dzduflfeefrflx8l88y:#1#
+
+resim publish .
+
+resim call-function package_sim1p4fntssxx2qhtdqhhrn6de76cffk6xvnjfuasjehj8hna2gnwap9dr ParaboxNFT instantiate_component
+
+resim call-method component_sim1czj3d5lxfqj4am742dx3pzu2wlm50mmrcvfw78cc0pptmzddt7hfdg mint_para_nft
+
+resim transfer 1 resource_sim1nfwjdj49zas8gpsas95z8crkrws6mxl0xt7jvpuauc3npsxp274y5w account_sim1c8x9xxj0qjn65spgygmy3z66842sy2rmsl86xgk64cfh05h48wgama
+
+
+
+
+//rdx manifest trx
+
+
+resim call-function package_sim1p5lxd6vskdupk5eljyj4wvgegsc6atwhhjhpdwzd0v5lp55k5nzpj6 ParaboxNFT instantiate_component --manifest out.rtm

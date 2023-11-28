@@ -1,0 +1,29 @@
+CALL_METHOD
+    Address("component_sim1cptxxxxxxxxxfaucetxxxxxxxxx000527798379xxxxxxxxxhkrefh")
+    "lock_fee"
+    Decimal("5000")
+;
+CALL_FUNCTION
+    Address("package_sim1p5lxd6vskdupk5eljyj4wvgegsc6atwhhjhpdwzd0v5lp55k5nzpj6")
+    "ParaboxNFT"
+    "instantiate_component"
+;
+CALL_METHOD
+    Address("account_sim1c8m2q0hrlcerf09qrqcw0ayxezy32ehrkje5hgh3c9vuln3cc5zkhg")
+    "try_deposit_batch_or_refund"
+    Expression("ENTIRE_WORKTOP")
+;
+
+
+
+
+
+
+
+
+
+CALL_FUNCTION
+    Address("package_tdx_d_1p5ga0wt3yklvxm7q3neyc0zj7daukxmzgsfnc8raly67zd92dkf5w2")
+    "ParaboxNFT"
+    "instantiate_component"
+;

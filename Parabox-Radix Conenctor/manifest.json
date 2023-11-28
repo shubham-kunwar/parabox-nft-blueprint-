@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "PARABOX RADIX CONNECTOR",
+  "version": "0.4.0.0",
+  "version_name": "0.4.0",
+  "action": {
+    "default_popup": "src/pairing/index.html"
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content-script.ts-loader.d1bdbac4.js"
+      ],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "src/options/index.html",
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "permissions": [
+    "storage",
+    "tabs",
+    "offscreen",
+    "scripting",
+    "notifications",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "radix-icon_16x16.png",
+    "48": "radix-icon_48x48.png",
+    "128": "radix-icon_128x128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "resources": [
+        "assets/index.es.095da3c8.js",
+        "assets/Subject.c67f7ae3.js",
+        "assets/get-connection-password.e42f6d71.js",
+        "assets/message-client.0e26c204.js",
+        "assets/logger.8aad6c34.js",
+        "assets/chrome-local-store.60de0fbe.js",
+        "assets/first.9e6ac58d.js",
+        "assets/send-message.6e0479e0.js",
+        "assets/content-script.ts.d8bc7c0e.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

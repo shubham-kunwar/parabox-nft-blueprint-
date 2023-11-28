@@ -1,0 +1,56 @@
+{
+    "name": "Parabox Collection",
+    "image": "8.png",
+    "edition": 8,
+    "artist": "Kresimir Dakovic",
+    "attributes": [
+        {
+            "trait_type": "Origin",
+            "value": "Genesis_Plaza"
+        },
+        {
+            "trait_type": "Aura",
+            "value": "Moral"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Beige"
+        },
+        {
+            "trait_type": "Pants",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Shirt",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Eyebrows",
+            "value": "Blonde"
+        },
+        {
+            "trait_type": "Facial Hair",
+            "value": "Blonde_Beard"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Blonde_Pompadour"
+        },
+        {
+            "trait_type": "Shoes",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Hat",
+            "value": "None"
+        },
+        {
+            "trait_type": "Composition",
+            "value": "Blood"
+        }
+    ]
+}
